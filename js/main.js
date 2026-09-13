@@ -66,7 +66,7 @@ if (confirmacion == "si") {
 
             sospechosos.splice(posicionSospechoso, 1, verdaderoNombre);
 
-            alert("¡DESCUBRISTE AL LADRÓN! " + buscarSospechoso + " que en realidad se llama " + verdaderoNombre + " robó la joyería");
+            alert("¡DESCUBRISTE AL LADRÓN! " + buscarSospechoso + " que en realidad se llama " + verdaderoNombre + " y fue quien robó la joyería");
             
             console.log(buscarSospechoso + " cambia de nombre a: " + verdaderoNombre);
             console.log(sospechosos);
